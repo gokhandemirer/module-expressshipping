@@ -1,0 +1,22 @@
+{
+  "name": "gokhandemirer/module-expressshipping",
+  "description": "Creates a new custom shipping method",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gokhan Demirer",
+      "email": "gdmr34gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Gokhandemirer\\ExpressShipping\\": ""
+    }
+  }
+}
