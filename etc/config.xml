@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <expressshipping>
+                <model>Gokhandemirer\ExpressShipping\Model\Carrier\ExpressShipping</model>
+                <name>ExpressShipping</name>
+                <title>Express Shipping</title>
+                <active>0</active>
+                <handling_fee>0</handling_fee>
+                <max_weight_limit>0</max_weight_limit>
+            </expressshipping>
+        </carriers>
+    </default>
+</config>
